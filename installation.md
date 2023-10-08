@@ -65,10 +65,12 @@
 
 ## Step 4: Customize and Launch Jupyter Notebook
 
-1. Install pandas in your system.
+1. Install pandas, progressbar, and numpy in your system.
 
     ```bash
     pip install pandas
+    pip install progressbar
+    pip install numpy
     ```
 
 2. (Optional) Customize your jupyter notebook to dark mode by running the following commands in your terminal.
