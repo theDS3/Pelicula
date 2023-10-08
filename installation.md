@@ -71,14 +71,31 @@
     conda install -c anaconda jupyter
     ```
 
-## Step 4: Launch Jupyter Notebook
+## Step 4: Customize and Launch Jupyter Notebook
 
-1. In the same terminal where your Conda environment is active, run the following command to start Jupyter Notebook:
+1. Install pandas in your system.
+
+    ```bash
+    pip install pandas
+    ```
+
+2. (Optional) Customize your jupyter notebook to dark mode by running the following commands in your terminal.
+
+    ```bash
+    pip install jupyterthemes
+    jt -t onedork
+    jupyter notebook --generate-config
+    c.JupyterTheme.style = 'onedork'
+    ```
+
+    More details can be found [here](https://saturncloud.io/blog/jupyter-notebook-dark-mode-a-step-by-step-guide/).
+
+3. In the same terminal where your Conda environment is active, run the following command to start Jupyter Notebook:
 
     ```bash
     jupyter notebook
     ```
 
-2. This will open a new browser window or tab displaying the Jupyter Notebook interface.
+4. This will open a new browser window or tab displaying the Jupyter Notebook interface.
 
 Now you have successfully installed Jupyter Notebooks and Miniconda on your computer and can begin using them within your Conda environment.
