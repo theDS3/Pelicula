@@ -51,17 +51,9 @@
 
 3. Activate the newly created environment:
 
-    - On Windows:
-
-        ```bash
-        conda activate myenv
-        ```
-
-    - On macOS/Linux:
-
-        ```bash
-        source activate myenv
-        ```
+    ```bash
+    conda activate myenv
+    ```
 
 ## Step 3: Install Jupyter Notebook
 
@@ -84,8 +76,6 @@
     ```bash
     pip install jupyterthemes
     jt -t onedork
-    jupyter notebook --generate-config
-    c.JupyterTheme.style = 'onedork'
     ```
 
     More details can be found [here](https://saturncloud.io/blog/jupyter-notebook-dark-mode-a-step-by-step-guide/).
