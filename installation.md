@@ -16,9 +16,9 @@
 
 1. Download the Miniconda installer for MacoS from the Miniconda website: [https://docs.conda.io/projects/miniconda/en/latest/](https://docs.conda.io/en/latest/miniconda.html). NOTE: Newer Macs with the M1 chip should download `Miniconda3 macOS Apple M1 64-bit pkg`, older intel based Macs should download `Miniconda3 macOS Intel x86 64-bit pkg` instead.
 
-3. Double-click the downloaded `pkg` file to run the installer.
+2. Double-click the downloaded `pkg` file to run the installer.
 
-4. Follow the on-screen instructions to complete the installation. When prompted, press Enter to accept the license agreement and select the default installation location.
+3. Follow the on-screen instructions to complete the installation. When prompted, press Enter to accept the license agreement and select the default installation location.
 
 ### **Linux(Ubuntu):**
 
@@ -40,10 +40,8 @@
 2. Create a new Conda environment and install Jupyter Notebook by running the following command:
 
     ```bash
-    conda create -n myenv python=3.x
+    conda create -n myenv python=3.9
     ```
-
-    Replace myenv with the desired environment name and 3.x with your preferred Python version (e.g., 3.8, 3.9, etc.).
 
 3. Activate the newly created environment:
 
