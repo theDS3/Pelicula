@@ -73,7 +73,7 @@
 
     ```bash
     pip install jupyterthemes
-    jt -t onedork
+    jt -t grade3
     ```
 
     More details can be found [here](https://saturncloud.io/blog/jupyter-notebook-dark-mode-a-step-by-step-guide/).
